@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-size: 14px !important;
+   font-family: 'Times New Roman', Times, serif;
+}
+body{
+background-image: url(image/Green\ Watercolor\ Quote\ Phone\ Wallpaper.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover !important;
+margin: 0px;
+padding: 0px;
+}
+.minu ul li{
+    padding-left: 1ch;
+    padding-right: 1ch;
+    margin-bottom: 4px ;
+}
+.minu ul li a{
+    color: #fff !important;
+}
+.minu ul li a:hover{
+    color: #00ffc2 !important;    
+}
+.minu-all{
+    background-color:#00000080;
+}
+.logo a{
+    width: fit-content;
+}
+.logo{
+    background-color: #0000007a;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.logo h1{
+    font-size: 40px !important;
+    margin: auto;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: yellow;
+    font-weight: 700;     
+}
+.minu ul li:hover{
+    border-bottom: 3px solid blue !important;
+}
+.toper{
+    background-image: url(image/Markhor\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-image: url(image/Markhor\ \(4\).jpg);
+}
+.news{
+    padding: 24px;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 380;
+}
+.carousel-news{
+    background-image: url(image/Untitled\ design\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-li{
+    background: #0000007a;
+}
+.bg-lis{
+    background: #000000ba;
+}
+.abo{
+    border-left: 3px solid #4b965d;
+    padding-left: 40px;
+    font-family: auto !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+.par{
+    text-align: justify;
+    font-size: medium !important;
+    color: white;
+}
+.pm-image{
+    border-radius: 50%;
+}
+.c-l {
+    color: #024f72;
+    font-weight: bold;
+    font-family: auto;
+}
+.c-b {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    border-left: 3px solid palevioletred;
+    font-family: auto;
+    font-size: 30px !important;
+}
+.pa {
+    font-family: Times New Roman;
+    font-size: 16px;
+    text-align: justify;
+    font-size: large !important;
+    color: #fff;
+}
+.h-o{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px !important;
+    margin: 28px !important;
+    color: #007bff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: red;
+}
+.dropdown-item:hover{
+background-color: #d00e0e6b !important;
+color: white !important;
+border-bottom: 3px solid blue;}
+.dropdown-menu{
+    background-color: #00e9f2b0 !important;
+}.contact-info{
+    color: #fff;
+    margin-block: 60px;
+    margin-left: 100px;
+}.contact-info span{
+    font-size: 50px !important;
+    color: #007bff !important;
+    float: left;
+    padding-inline: 14px;
+}
+.contact-info h3{
+    font-size: 26px !important;
+    font-weight: bold;
+    font-family: emoji;
+}.contact-info p{
+    font-weight: bold;
+}.animate-border {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 4px;
+    background: #007bff; }
+  body{background-color:#000;}
+  
+  .animate-border:after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    -webkit-animation: animborder 2s linear infinite;
+    animation: animborder 2s linear infinite; }
+  @-webkit-keyframes animborder {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px); }
+    100% {
+      -webkit-transform: translateX(113px);
+      transform: translateX(113px); } }
+.section-heading{
+    color: #fff;
+    margin-block: 60px;
+    margin-left: 110px;
+}
+.section-heading h3{
+    font-size: 30px !important;
+    font-weight: bold;
+} .list{
+    margin-left: 100px;    
+}
+.list ul{
+    list-style: none;
+    margin-right: 80px;
+}
+.list ul li a{
+    color: #fff;
+    font-size: 24px;
+}
+.list ul li a:hover{
+    color: #024f72;
+}
+.social-link ul li{
+    list-style: none;
+    display: block;
+}
+.social-link ul{
+    display: flex;
+}
+.social-link ul li a i{
+    font-size: 24px !important;
+}
+.social-link ul li{
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+    background: linear-gradient(0deg,#ccc,#fff);
+    transition: .5s;
+}
+.social-link ul li:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.social-link ul li a{
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    color: #343a40;
+    padding: 0;
+    margin: 0;
+}
+.social-link ul li a i{
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(0deg,#fff,#ccc);
+    line-height: calc(60px - 6px);
+    transition: .5s;
+}.social-link ul li:nth-child(1) a:hover i{
+    color: #2702f7;
+}
+.social-link ul li:nth-child(2) a:hover i{
+    color: #4267B2;
+}
+.social-link ul li:nth-child(3) a:hover i{
+    color: #c70670;
+}
+.social-link ul li:nth-child(4) a:hover i{
+    color: #facd04;
+}
+.lic{
+    background: linear-gradient(0deg,#09ff48,#22dbe6,#2b1ae8);
+    border-radius: 50%;
+    box-shadow: -20px 20px 15px rgb(0 0 0 / 72%);
+    
+}
+@keyframes glow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+.lic:hover{
+    box-shadow: 12px -12px 15px rgb(20 24 210 / 72%);animation: glow 8s linear infinite;
+}
+.lic i h2:hover{
+    color: rgb(9, 49, 228);
+    text-shadow:2px -3px 4px rgba(241, 241, 241, 0.705);
+}
+.lic i{
+    background: linear-gradient(0deg,#2b1ae8,#22dbe6,#09ff48);
+    border-radius: 50%;
+    display: block;
+    animation: glow 8s linear infinite;
+}
+.lic h2{
+    padding: 10px;
+    color: white;
+    font-size: 18px !important;
+}
+.licn ul{
+    list-style: none;
+}
+.licn ul li p{
+    font-size: 20px !important;
+    color: white;
+}
+.licn ul li i{
+    font-size: 30px !important;
+    color: white;
+}
+.licn ul li a:hover p{
+    color: #0dffc4;
+}
+.licn ul li a:hover i{
+    color: #fccf00;
+}
