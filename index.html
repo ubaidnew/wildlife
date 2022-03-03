@@ -160,9 +160,11 @@
       <img src="image/WhatsApp Image 2022-02-08 at 4.42.56 PM.jpeg" width="300px" height="300px" class="d-flex pm-image m-auto" alt="...">
       </div>
       <div class=" col-lg-6 col-md-6 col-sm-12">
-      <h6 class="c-l"></h6>  
-      <h1 class="c-b"></h1>
-      <p class="pa"></p>
+      <h6 class="c-l">Message of Secretary FE&WD</h6>  
+      <h1 class="c-b">Mr. Muhammad Abid Majeed</h1>
+      <p class="pa">It’s a moment of pride to express that in pursuance to the good governance policy of the government, the Khyber Pakhtunkhwa Wildlife Department has developed Management Information System (MIS) with shared database for compilation of data into a wholesome digitized program. It is a shift from conventional record keeping to advanced technological development which will contribute to efficient, proactive and convenient working processes through improved automation. <span id="dots">...</span><span id="more">In fact, it’s the need of the current development scenario to adopt progressive approaches towards proficient use of technological means. The need for use of such approaches intensified with the passage of time and multiple technology based programs have been initiated in the government departments/ organizations. As an outcome, efficiency in task management will be achieved for evolving proactive strategies and long term planning. It will enhance ability of the department to respond to issues timely. 
+        The newly developed website, MIS with shared database and mobile app will enable the department to access the diversified information just on a click. The initiative is also intended to cater for public service delivery such as application for issuance of shooting and possession licences, etc.</span></p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
       </div>
       <div class="pt-5 col-md-6">
         <div class="col-md-4 col-lg-4 col-sm-12">
@@ -170,7 +172,7 @@
         </div>
         <div class=" col-lg-8 col-md-8 col-sm-12">
           <h6 class="c-l"></h6>  
-          <h1 class="c-b"></h1>
+          <h1 class="c-b">Muhammad Hussain</h1>
           <p class="pa"></p>
           </div>
       </div>
@@ -391,9 +393,24 @@
     </div>
   </div>
   <div class="container-fluid m-0 p-3 bg-dark text-secondary text-center">Copyright © 2022, KPK WildLife Department | Created by kurtlar developers shayanm1215225@gmail.com</div>
- 
+ <style>#more {display: none;}</style>
 </footer> <!--JavaScript at end of body for optimized loading-->
  <script type="text/javascript" src="js/materialize.min.js"></script>
+ <script>function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}</script>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
